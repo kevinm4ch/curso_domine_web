@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #d2d2c1 url("../img/fundo.png");
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#container{
+    max-width: 900px;
+    width: 100vw;
+}
+
+#capa{
+    width: 100%;
+    height: auto;
+}
+
+#navegacao{
+    background-color: #c5c5b2;
+}
+
+#nav-links{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 16px;
+    color: #4b566a;
+
+}
+
+.nav-link a {
+    text-decoration: none;
+    padding: 5px;
+    color: #4b566a;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#conteudo{
+    background-color: #e8e8d9;
+    padding: 20px;
+}
+
+#conteudo > *{
+    padding: 10px;
+}
+
+#conteudo .img-campanha{
+    border: 10px solid #c3c3ae;
+    padding: 0;
+    margin-top: 30px;
+}
+
+#conteudo p {
+    text-indent: justify;
+}
+
+#titulo {
+    color: #828271;
+    font-size: 1.21em;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+}
+
+#direitos{
+    font-weight: bold;
+}
+
+
+

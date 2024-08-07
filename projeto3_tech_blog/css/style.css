@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #E0E1DD;
+    font-size: 1em;
+    color: #0D1B2A;
+}
+
+#container{
+    width: 100%;
+    height: auto;
+}
+
+#container header{
+    text-align: center;
+    padding: 10px;
+    background-color: #415A77;
+    padding: 10px;
+}
+
+#logo{
+    font-size: 3em;
+}
+
+#logo-white{
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#nav-list{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.nav-item a:link, .nav-item a:visited{
+    color: #E0E1DD;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.nav-item a:hover{
+    background-color: #E0E1DD;
+    color: #0D1B2A;
+}
+
+#container main{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#post{
+    width: 50%;
+    padding: 20px;
+    background-color: #eeefeb;
+}
+
+#post-title{
+    color: #415A77;
+}
+
+#post-date{
+    font-size: 0.8em;
+    border-bottom: 1px solid #E0E1DD;
+}
+
+#post-image{
+    width: 80%;
+    margin: 20px 0;
+}
+
+#post-content{
+    text-align: justify;
+}
+
+.read-more:link, .read-more:visited, .categorie-item a:link, .categorie-item a:visited{
+    color: #415A77;
+} 
+
+#sidebar{
+    width: 20%;
+    max-width: 240px;
+    background-color: #eeefeb;
+    padding: 15px;
+}
+
+.sidebar-title{
+    background-color: #415A77;
+    color: #E0E1DD;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.recent-post{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.categorie-item{
+    padding: 0 10px;
+}
+
+#container footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#copyright{
+    font-weight: bold;
+    padding: 15px;
+}

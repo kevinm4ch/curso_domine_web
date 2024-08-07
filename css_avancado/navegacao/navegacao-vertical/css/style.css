@@ -1,0 +1,32 @@
+/*Barra de navegação vertical*/
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    background: #f7b600 url("../img/menu.png") left bottom;
+    color: #000;
+    text-decoration: none;
+    text-indent: 30px;
+    line-height: 42px;
+}
+
+ul a:hover{
+    background-position: right bottom;
+    background-color: #f99200;
+}
+
+#home .home a,
+#sobre .sobre a,
+#noticias .noticias a,
+#contato .contato a,
+#servicos .servicos a{
+    background-position: right bottom;
+    background-color: #f99200;
+}
