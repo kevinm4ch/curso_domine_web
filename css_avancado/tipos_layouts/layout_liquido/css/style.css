@@ -1,0 +1,51 @@
+/* border: 1px solid red; */
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#container{
+    width: 85%;
+    margin: 0 auto;
+    background-color: #fff;
+    min-width: 720px;
+    max-width: 960px;
+}
+
+#marca{
+    height: 100px;
+    background-color: #9E9E9E;
+    text-align: center;
+    line-height: 100px;
+}
+
+#conteudo{
+    width: 75%;
+    float: right;
+}
+
+#conteudo-principal{
+    width: 63%;
+    float: left;
+}
+
+#conteudo-secundario{
+    width: 32%;
+    float: right;
+    background-color: #d1d1d1;
+    padding: 0 10px;
+}
+
+#navegacao{
+    width: 23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #d1d1d1;
+}
+
+#rodape{
+    clear: both;
+    background-color: #c4c4c4;
+    padding: 5px;
+}
