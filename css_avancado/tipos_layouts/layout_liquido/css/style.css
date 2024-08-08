@@ -13,15 +13,21 @@ body{
 }
 
 #marca{
-    height: 100px;
-    background-color: #9E9E9E;
+    height: 200px;
+    background: #222952 url("../img/cabecalho2.jpg") no-repeat center;
     text-align: center;
-    line-height: 100px;
+    line-height: 200px;
 }
 
 #conteudo{
     width: 75%;
     float: right;
+}
+
+#conteudo img{
+    max-width: 600px;
+    width: 96%;
+    padding: 2%;
 }
 
 #conteudo-principal{
