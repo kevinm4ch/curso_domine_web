@@ -1,0 +1,37 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table{
+    width: 600px;
+    border-collapse: separate;
+}
+
+th, td{
+    padding: 7px;
+}
+
+th{
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    font-size: 90%;
+    letter-spacing: 0.1em;
+}
+
+/*Brincando com nth-child*/
+
+/*pega apenas os elementos tr que são pares -os elementos começam a contar do 1*/
+tr:nth-child(even){
+    background-color: #efefef;
+}
+
+/*Pega o último td de cada tr*/
+tr>td:nth-last-child(1){
+    text-align: right;
+}
+
+/*pega todos os elementos a partir do segundo[n = número da linha, iniciando em 0]*/
+tr:nth-child(n+2):hover{
+    background-color: #c3e6e5;
+}
