@@ -4,9 +4,10 @@ body{
 }
 
 #container{
-    width: 720px;
+    border: 1px solid ;
+    width: 760px;
     margin: 0 auto;
-    background-color: #fff;
+    background: url("../img/coluna.png") repeat-y left top; /*coluna falsa*/
 }
 
 #marca{
@@ -38,7 +39,6 @@ body{
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #d1d1d1;
 }
 
 #rodape{
