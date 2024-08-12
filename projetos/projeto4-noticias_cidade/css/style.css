@@ -67,9 +67,6 @@ a{
     display: flex;
 }
 
-.content{
-    flex: 1 1 0;
-}
 
 .box-main{
     background: url("../img/fundo-caixa.png");
@@ -97,7 +94,6 @@ a{
 }
 
 .box-image{
-    max-width: 300px;
     margin: auto;
     margin-top: 10px;
 }
