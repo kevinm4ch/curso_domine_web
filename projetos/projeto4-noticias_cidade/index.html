@@ -6,36 +6,58 @@
     <title>Notícias Cidade</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="home">
-     <div id="container">
+<body>
+    <div class="container">
         <header>
-            <nav>
+            <nav class="nav-header">
                 <ul>
-                    <li><a id="home" href="#">Home</a></li>
-                    <li><a id="brasil" href="#">Brasil</a></li>
-                    <li><a id="internacional" href="#">Internacional</a></li>
-                    <li><a id="economia" href="#">Economia</a></li>
-                    <li><a id="saude" href="#">Saúde</a></li>
-                    <li><a id="ciencia" href="#">Ciência</a></li>
-                    <li><a id="fotos" href="#">Fotos</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Brasil</a></li>
+                    <li><a href="#">Internacional</a></li>
+                    <li><a href="#">Economia</a></li>
+                    <li><a href="#">Saúde</a></li>
+                    <li><a href="#">Ciência</a></li>
+                    <li><a href="#">Fotos</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <aside>
-                area lateral
+            <aside class="box-main">
+                <h2 class="box-title">Entrevistas</h2>
+                <div class="box-content">
+                    <ul>
+                        <li>José Almeida</li>
+                        <li>Felipe Silva</li>
+                        <li>Renato Rodrigues</li>
+                        <li>Adiano Silveira</li>
+                        <li>André Carlos</li>
+                    </ul>
+                </div>
             </aside>
-            <section id="conteudo1">
-                1
-            </section>
-            <section id="conteudo2">
-                2
+            <section>
+                <div id="content1" class="content box-main">
+                    <h2 class="box-title">Ùltima entrevista</h2>
+                    <div class="box-content">
+                        <h3>Entrevista com Felipe Silva</h3>
+                        <div class="box-image"><img src="img/doutor.jpg" alt="doutor"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <a href="#" class="read-more">Leia mais!</a>
+                    </div>
+                </div>
+                <div id="content2" class="content box-main">
+                   <h2 class="box-title">Destaque</h2>
+                   <div class="box-content">
+                    <h3>Nova Legislação</h3>
+                    <div class="box-image"><img src="img/taxi.jpg" alt="doutor"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <a href="#" class="read-more">Leia mais!</a>
+                </div>
+                </div>
             </section>
         </main>
-        
+        <footer>
+            <p>&copy;Todos os direitos reservados</p>
+        </footer>
     </div>
-    <footer>
-        rodapé
-    </footer>
 </body>
 </html>
