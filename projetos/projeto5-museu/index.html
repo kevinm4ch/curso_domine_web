@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="logo">
+                <h1><a href="#">museu nacional</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Exposições</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><a href="#">Acervo</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                    <li><a href="#">Fotos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="img/museu.png" alt="">
+                </section>
+
+                <section id="postagens">
+                    <article id="video">
+                        <h3>Vídeo: Conheça o museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc?si=8MzUKz_LJcJBCFLC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </article>
+                    <article id="mapa">
+                        <h3>Mapa: Encontre o museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3855202.143674816!2d-48.16556674401415!3d-19.332494520100564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1723554276058!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li><a href="#">Os assustadores insetos</a></li>
+                            <li><a href="#">O crânio de Luzia, a mulher mais antiga do Brasil</a></li>
+                            <li><a href="#">Preguiça gigante e tigre-dentes-de-sabre</a></li>
+                            <li><a href="#">Plantas do Brasil Central</a></li>
+                            <li><a href="#">Teresa Cristina: A imperatriz Arqueóloga</a></li>
+                            <li><a href="#">Arte com dinossauros - paleoarte</a></li>
+                            <li><a href="#"><strong>Veja todos (65)</strong></a></li>
+                        </ul>
+                    </article>
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias illo tempora expedita dolorem dignissimos, error officiis molestias facilis sequi! Omnis numquam explicabo rerum ea eligendi vitae praesentium repudiandae alias est.</p>
+                        <a href="#">Leia mais</a>
+                    </article>
+                </section>
+            </div>
+            <aside id="lateral">
+                <section id="depoimento">
+                    <img src="img/depoimento.png" alt="">
+                </section>
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <div>
+                                <label for="qtd">Quantidade de pessoas</label>
+                                <input type="text" id="qtd" value="1">
+                            </div>
+
+                            <div>
+                                <label for="data">Data</label>
+                                <input type="text" id="data" value="dd/mm/aaaa">
+                            </div>
+                            
+                        </fieldset>
+                        <input type="submit" value="Veificar disponibilidade">
+                    </form>
+                </section>
+                <section id="galeria">
+                    <h4>Galeria de Fotos</h4>
+                    <div id="fotos">
+                        <a href="#"><img src="img/imagem1.jpg" alt=""></a>
+                        <a href="#"><img src="img/imagem2.jpg" alt=""></a>
+                        <a href="#"><img src="img/imagem3.jpg" alt=""></a>
+                        <a href="#"><img src="img/imagem4.jpg" alt=""></a>
+                    </div>
+                </section>
+            </aside>
+        </main>
+    </div>
+</body>
+</html>
